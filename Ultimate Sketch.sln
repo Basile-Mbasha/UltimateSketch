@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultimate Sketch", "Ultimate Sketch.csproj", "{52F2C4F8-957A-49C4-A46F-B1ACA61F74FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F2C4F8-957A-49C4-A46F-B1ACA61F74FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F2C4F8-957A-49C4-A46F-B1ACA61F74FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F2C4F8-957A-49C4-A46F-B1ACA61F74FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F2C4F8-957A-49C4-A46F-B1ACA61F74FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA893A0C-2999-4A60-B7BA-597551291BDF}
+	EndGlobalSection
+EndGlobal
