@@ -1,0 +1,27 @@
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Ultimate Sketch.exe.config
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Ultimate Sketch.exe
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Ultimate Sketch.pdb
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate Sketch.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate Sketch.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate_Sketch.Properties.Resources.resources
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate Sketch.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate Sketch.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate Sketch.exe
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate Sketch.pdb
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate_Sketch.Form1.resources
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\ExCSS.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Fizzler.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Svg.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Buffers.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Memory.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Fizzler.pdb
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Svg.xml
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Buffers.xml
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Memory.xml
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate Sketch.csproj.CopyComplete
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\DevExpress.Data.v22.2.xml
