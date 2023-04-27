@@ -8,9 +8,9 @@ The following features have been implemented per menu item:
 
 ### File
 
+- New
 - Save as PNG
 - Export as SVG
-- View in browser
 - Print
 
 ### Actions
@@ -22,6 +22,7 @@ The following features have been implemented per menu item:
 ### Tools
 
 - Select
+- View in browser
 
 And a general grid background and Theme selection to assist users with the drawing experience.
 
