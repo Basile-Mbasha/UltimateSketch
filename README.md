@@ -26,8 +26,7 @@ The following features have been implemented per menu item:
 And a general grid background and Theme selection to assist users with the drawing experience.
 
 ## Screenshots
-![File Menu]([https://drive.google.com/file/d/1iVtAe-awnvP7nusiMV4M_I9u541jNJfQ/view](https://drive.google.com/file/d/1iVtAe-awnvP7nusiMV4M_I9u541jNJfQ/view?usp=share_link))
-
+![ExportAsSVG](https://user-images.githubusercontent.com/95984302/234828450-2fda9c34-9490-4b7b-b21a-6a9992dfb77a.png)
 
 ## Tools Used
 
