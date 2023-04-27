@@ -23,8 +23,13 @@ namespace Ultimate_Sketch
         public List<Point> points = new List<Point>();
         private Point? previousPoint; // to keep track of the previous point
         private const int GridSize = 20; // the size of the grid cells
+        internal readonly bool? DisplayedErrorMessage;
+        internal readonly double LastShownMessage;
         public Stack<List<Point>> undoStack = new Stack<List<Point>>();
         public Stack<List<Point>> redoStack = new Stack<List<Point>>();
+
+        public object saveFileDialog { get; internal set; }
+
         public Form1()
         {
             InitializeComponent();
@@ -100,6 +105,48 @@ namespace Ultimate_Sketch
             pictureBox1.MouseUp += pictureBox1_MouseUp;
 
         }
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            // Start drawing when the left mouse button is clicked
+            if (e.Button == MouseButtons.Left)
+            {
+                // Add the current state to the undo stack
+                undoStack.Push(points.ToList());
+                // Add a new point to the list
+                points.Add(e.Location);
+            }
+        }
+
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            // Draw a line from the previous point to the current point
+            if (e.Button == MouseButtons.Left)
+            {
+                // Save the current state of the drawing
+                var currentState = points.ToList();
+
+                // Add the current state to the undo stack
+                undoStack.Push(currentState);
+
+                // Draw the line
+                points.Add(e.Location);
+                pictureBox1.Invalidate(); // Force a redraw of the picture box
+                previousPoint = e.Location;
+                redoStack.Clear(); // Clear the redo stack when the user makes a new change
+            }
+        }
+
+        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+            // Stop drawing when the left mouse button is released
+            if (e.Button == MouseButtons.Left)
+            {
+                // Add the current state to the undo stack
+                undoStack.Push(points.ToList());
+                previousPoint = null;
+            }
+        }
+
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             // Fill the control with white before drawing
@@ -116,49 +163,12 @@ namespace Ultimate_Sketch
             }
 
             // Draw the user's drawing onto the picture box
-            if (points.Count > 1)
+            if (points.Count > 0)
             {
                 e.Graphics.DrawLines(Pens.Black, points.ToArray());
             }
         }
 
-        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
-        {
-            // Start drawing when the left mouse button is clicked
-            if (e.Button == MouseButtons.Left)
-            {
-                previousPoint = e.Location;
-            }
-        }
-
-        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
-        {
-            // Draw a line from the previous point to the current point
-            if (e.Button == MouseButtons.Left && previousPoint.HasValue)
-            {
-                // Save the current state of the drawing
-                var currentState = points.ToList();
-
-                // Add the current state to the undo stack
-                undoStack.Push(currentState);
-
-                // Draw the line
-                points.Add(e.Location);
-                pictureBox1.Invalidate(); // Force a redraw of the picture box
-                previousPoint = e.Location;
-                redoStack.Clear(); // Clear the redo stack when the user makes a new change
-            }
-        }
-
-
-        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
-        {
-            // Stop drawing when the left mouse button is released
-            if (e.Button == MouseButtons.Left)
-            {
-                previousPoint = null;
-            }
-        }
 
         private void SaveMenuItem_Click(object sender, EventArgs e)
         {
@@ -225,9 +235,7 @@ namespace Ultimate_Sketch
             e.Graphics.DrawImage(bmp, e.PageBounds);
         }
 
-
-
-        private void ExportSvgMenuItem_Click(object sender, EventArgs e)
+        public void ExportSvgMenuItem_Click(object sender, EventArgs e)
         {
             if (points.Count == 0)
             {
@@ -288,10 +296,6 @@ namespace Ultimate_Sketch
                 }
             }
         }
-
-
-
-
 
         private void NewMenuItem_Click(object sender, EventArgs e)
         {
@@ -421,9 +425,14 @@ namespace Ultimate_Sketch
             }
         }
 
+        internal void ExportSvgMenuItem_Click(object value1, object value2)
+        {
+            throw new NotImplementedException();
+        }
 
-
-
-
+        internal void ClearMenuItem_Click(object value1, object value2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

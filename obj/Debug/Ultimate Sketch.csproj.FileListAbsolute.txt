@@ -27,3 +27,9 @@ C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\DevExpress.Data.v22.2.dll
 C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\DevExpress.Data.v22.2.xml
 C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\nunit.framework.dll
 C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\nunit.framework.xml
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Castle.Core.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Moq.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Castle.Core.xml
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\Moq.xml
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Threading.Tasks.Extensions.xml

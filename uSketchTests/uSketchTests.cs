@@ -1,8 +1,10 @@
-﻿using NUnit.Framework;
+﻿using Moq;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
-using Ultimate_Sketch;
+using System.Windows.Forms;
 
 namespace Ultimate_Sketch.uSketchTests
 {
@@ -34,6 +36,59 @@ namespace Ultimate_Sketch.uSketchTests
         {
             throw new NotImplementedException();
         }
+
+        [Test]
+        public void ExportSvgMenuItem_Click_WhenPointsEmpty_ShouldShowErrorMessage()
+        {
+            // Arrange
+            var form = new Form1();
+            form.points.Clear();
+            var expectedMessage = "There is no drawing to export.";
+
+            var saveFileDialogMock = new Mock<SaveFileDialog>();
+            saveFileDialogMock.Setup(x => x.ShowDialog()).Returns(DialogResult.OK);
+            saveFileDialogMock.Setup(x => x.FileName).Returns("test.svg");
+
+            // Act
+            form.ExportSvgMenuItem_Click(null, null);
+
+            // Assert
+            Assert.IsTrue(form.DisplayedErrorMessage);
+        }
+
+        [Test]
+        public void ClearMenuItem_Click_WhenPointsNotEmpty_ShouldClearDrawingAndStacks()
+        {
+            // Arrange
+            var form = new Form1();
+            form.points.Add(new Point(10, 10));
+            form.undoStack.Push(new List<Point>(form.points));
+            form.redoStack.Push(new List<Point>(form.points));
+
+            // Act
+            form.ClearMenuItem_Click(null, null);
+
+            // Assert
+            Assert.IsEmpty(form.points);
+            Assert.IsEmpty(form.undoStack);
+            Assert.IsEmpty(form.redoStack);
+        }
+
+        [Test]
+        public void ClearMenuItem_Click_WhenPointsEmpty_ShouldShowMessage()
+        {
+            // Arrange
+            var form = new Form1();
+            form.points.Clear();
+            var expectedMessage = "There is nothing to clear.";
+
+            // Act
+            form.ClearMenuItem_Click(null, null);
+
+            // Assert
+            Assert.AreEqual(expectedMessage, form.LastShownMessage);
+        }
+
 
 
     }
