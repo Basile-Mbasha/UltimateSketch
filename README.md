@@ -37,7 +37,7 @@ The application has been developed using the following tools:
 
 - Provide a simple, user-friendly interface to allow mouse-drawing on a picture box
 - Provide an application that is scalable, maintainable, and easy to use as well as modify based on requirements
-- Provide an application written while following MS coding conventions
+- Provide an application written while following C# standard coding conventions
 - Provide an application that is robust, and does what is intended to
 
 ## Download
