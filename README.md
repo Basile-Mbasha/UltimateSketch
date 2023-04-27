@@ -64,7 +64,6 @@ Menu items with keyboard shortcuts
 
 Success message shown after saving the file on your local system
 
-
 ![SuccessMessage](https://user-images.githubusercontent.com/95984302/234830960-4ec3e96b-fbf9-47b4-b910-73beedf2ebaa.png)
 
 SVG file viewed from the user's browser client 
