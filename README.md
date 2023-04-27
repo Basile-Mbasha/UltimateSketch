@@ -49,7 +49,7 @@ You can download the executable file from the "releases" section and test it.
 
 - Biweekly updates to improve on the program's robustness
 - Better UI designed using [FontAwesome.Sharp](https://www.nuget.org/packages/FontAwesome.Sharp/) or [MaterialSkin.2](https://www.nuget.org/packages/MaterialSkin.2/) library.
-- More features such as a Tool Bar, View in browser, etc.
+- More features such as a Tool Bar, AI Generated drawing, etc.
 
 
 ## Screenshots
