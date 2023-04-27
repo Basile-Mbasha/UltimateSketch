@@ -53,8 +53,6 @@ You can download the executable file from the "releases" section.
 
 ## Screenshots
 ![MainWindow](https://user-images.githubusercontent.com/95984302/234829073-bd78f238-80ef-4214-bdd0-a57fb62e1c0c.png)
-![TestingApp](https://user-images.githubusercontent.com/95984302/234830221-adcfb14d-fb58-49f1-873f-cafc9a0077c0.png)
-![ExportAsSVG](https://user-images.githubusercontent.com/95984302/234830618-7836c74d-2057-4947-b51f-0546e31b77d4.png)
-![SuccessMessage](https://user-images.githubusercontent.com/95984302/234830960-4ec3e96b-fbf9-47b4-b910-73beedf2ebaa.png)
+![ExportAsSVG](https://user-images.githubusercontent.com/95984302/234830618-7836c74d-2057-4947-b51f-0546e31b77d4.png) ![SuccessMessage](https://user-images.githubusercontent.com/95984302/234830960-4ec3e96b-fbf9-47b4-b910-73beedf2ebaa.png)
 ![TestSVGInBrowser](https://user-images.githubusercontent.com/95984302/234831244-811f606b-bb6b-4463-81f4-30c53947d74f.png)
 
