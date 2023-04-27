@@ -15,7 +15,6 @@ using System.Xml.Linq;
 using DevExpress.Utils.Svg;
 using Svg;
 
-
 namespace Ultimate_Sketch
 {
     public partial class Form1 : Form
@@ -105,6 +104,7 @@ namespace Ultimate_Sketch
             pictureBox1.MouseUp += pictureBox1_MouseUp;
 
         }
+        
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             // Start drawing when the left mouse button is clicked
@@ -168,7 +168,6 @@ namespace Ultimate_Sketch
                 e.Graphics.DrawLines(Pens.Black, points.ToArray());
             }
         }
-
 
         private void SaveMenuItem_Click(object sender, EventArgs e)
         {
@@ -313,6 +312,7 @@ namespace Ultimate_Sketch
             points.Clear();
             pictureBox1.Invalidate();
         }
+        
         private void ClearMenuItem_Click(object sender, EventArgs e)
         {
             if (points.Count > 0)
@@ -332,7 +332,6 @@ namespace Ultimate_Sketch
                 MessageBox.Show("There is nothing to clear.", "Clear");
             }
         }
-
 
         private void UndoMenuItem_Click(object sender, EventArgs e)
         {
@@ -354,7 +353,6 @@ namespace Ultimate_Sketch
             }
         }
 
-
         private void RedoMenuItem_Click(object sender, EventArgs e)
         {
             // Check if there's a state to redo to
@@ -375,16 +373,13 @@ namespace Ultimate_Sketch
             }
         }
 
-
-
         private void SelectMenuItem_Click(object sender, EventArgs e)
         {
-
+            // Select drawn elements and surround them with a RED rectangle
         }
 
         private void SaveAsSvg(string filePath)
         {
-            // Replace this with your code for drawing the elements
             List<string> elements = new List<string>
     {
         "<rect x=\"10\" y=\"10\" width=\"50\" height=\"50\" fill=\"red\" />",
