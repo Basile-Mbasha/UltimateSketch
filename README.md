@@ -24,7 +24,7 @@ The following features have been implemented per menu item:
 - Select
 - View in browser
 
-And a general grid background and Theme selection to assist users with the drawing experience.
+And a general grid background to assist users with the drawing experience.
 
 ## Tools Used
 
