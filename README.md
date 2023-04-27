@@ -32,6 +32,7 @@ The application has been developed using the following tools:
 - C# programming language
 - Windows Forms template
 - SVG .NET library
+- [FontAwesome.Sharp](https://www.nuget.org/packages/FontAwesome.Sharp/)
 
 ## Main Goal
 
@@ -40,8 +41,12 @@ The application has been developed using the following tools:
 - Application follows MS coding convention
 - Application is robust, and does what is intended to
 
+## Download
+
+You can download the executable file from the "releases" section. 
+
 ## Future Releases
 
 - Biweekly releases to improve on program's robustness
-- Better UI designed using FontAwesome.Sharp or MaterialSkin.2 library.
+- Better UI designed using [FontAwesome.Sharp](https://www.nuget.org/packages/FontAwesome.Sharp/) or MaterialSkin.2 library.
 - More features such as a Tool Bar, View in browser, etc.
