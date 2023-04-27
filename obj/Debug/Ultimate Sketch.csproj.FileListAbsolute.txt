@@ -25,3 +25,5 @@ C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\System.Runtime.CompilerServ
 C:\Users\User\source\repos\Ultimate Sketch\obj\Debug\Ultimate Sketch.csproj.CopyComplete
 C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\DevExpress.Data.v22.2.dll
 C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\nunit.framework.dll
+C:\Users\User\source\repos\Ultimate Sketch\bin\Debug\nunit.framework.xml

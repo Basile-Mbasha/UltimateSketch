@@ -37,9 +37,9 @@
             // Menu
             // 
             this.Menu.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.Menu.Location = new System.Drawing.Point(0, 24);
+            this.Menu.Location = new System.Drawing.Point(0, 48);
             this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(805, 24);
+            this.Menu.Size = new System.Drawing.Size(1006, 38);
             this.Menu.TabIndex = 0;
             this.Menu.Text = "Menu";
             // 
@@ -48,7 +48,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(805, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1006, 38);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -56,9 +56,9 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 95);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(805, 414);
+            this.pictureBox1.Size = new System.Drawing.Size(1006, 483);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;

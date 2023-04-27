@@ -20,22 +20,18 @@ namespace Ultimate_Sketch
 {
     public partial class Form1 : Form
     {
-        private List<Point> points = new List<Point>();
+        public List<Point> points = new List<Point>();
         private Point? previousPoint; // to keep track of the previous point
-        private Point? currentPoint;
-        private bool isDrawing = false;  // Indicates whether the user is currently drawing
         private const int GridSize = 20; // the size of the grid cells
-        private Stack<List<Point>> undoStack = new Stack<List<Point>>();
-        private Stack<List<Point>> redoStack = new Stack<List<Point>>();
+        public Stack<List<Point>> undoStack = new Stack<List<Point>>();
+        public Stack<List<Point>> redoStack = new Stack<List<Point>>();
         public Form1()
         {
             InitializeComponent();
 
             points = new List<Point>();
 
-            /* Application Menu items and sub-items with their shortcut keys */
-
-            // Add the File menu item with sub-items for Save, Save As, and Print
+            // Add the File menu items
             ToolStripMenuItem fileMenuItem = new ToolStripMenuItem("File");
             fileMenuItem.ShortcutKeys = Keys.Control | Keys.F;
             menuStrip1.Items.Add(fileMenuItem);
@@ -56,9 +52,7 @@ namespace Ultimate_Sketch
             printMenuItem.ShortcutKeys = Keys.Control | Keys.P;
             fileMenuItem.DropDownItems.Add(printMenuItem);
 
-            /* ACTIONS */
-
-            // Add the Actions menu item with sub-items for Undo, Redo, and Clear
+            // Add the Actions menu items
             ToolStripMenuItem actionsMenuItem = new ToolStripMenuItem("Actions");
             actionsMenuItem.ShortcutKeys = Keys.Control | Keys.A;
             menuStrip1.Items.Add(actionsMenuItem);
@@ -75,9 +69,7 @@ namespace Ultimate_Sketch
             clearMenuItem.ShortcutKeys = Keys.Control | Keys.C;
             actionsMenuItem.DropDownItems.Add(clearMenuItem);
 
-            /* TOOLS */
-
-            // Add the Tools menu item with a sub-items
+            // Add the Tools menu items
             ToolStripMenuItem toolsMenuItem = new ToolStripMenuItem("Tools");
             toolsMenuItem.ShortcutKeys = Keys.Control | Keys.T;
             menuStrip1.Items.Add(toolsMenuItem);
@@ -91,13 +83,7 @@ namespace Ultimate_Sketch
             showInBrowserMenuItem.Click += ShowInBrowserMenuItem_Click;
             toolsMenuItem.DropDownItems.Add(showInBrowserMenuItem);
 
-
-            /* PICTURE BOX */
-
-
-
-
-            // Add event handlers for the menu items
+            // Add event handlers
             saveMenuItem.Click += SaveMenuItem_Click;
             printMenuItem.Click += PrintMenuItem_Click;
             exportSvgMenuItem.Click += ExportSvgMenuItem_Click;
