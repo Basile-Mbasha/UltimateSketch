@@ -25,6 +25,10 @@ The following features have been implemented per menu item:
 
 And a general grid background and Theme selection to assist users with the drawing experience.
 
+## Screenshots
+![File Menu](https://drive.google.com/file/d/1iVtAe-awnvP7nusiMV4M_I9u541jNJfQ/view)
+
+
 ## Tools Used
 
 The application has been developed using the following tools:
