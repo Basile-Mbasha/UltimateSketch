@@ -43,7 +43,7 @@ The application has been developed using the following tools:
 
 ## Download
 
-You can download the executable file from the "releases" section. 
+You can download the executable file from the "releases" section and test it. 
 
 ## Future Releases
 
