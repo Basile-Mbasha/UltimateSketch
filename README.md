@@ -58,7 +58,7 @@ Main Window
 
 ![MainWindow](https://user-images.githubusercontent.com/95984302/234829073-bd78f238-80ef-4214-bdd0-a57fb62e1c0c.png)
 
-File Menu with keyboard shortcuts
+Menu items with keyboard shortcuts
 
 ![ExportAsSVG](https://user-images.githubusercontent.com/95984302/234830618-7836c74d-2057-4947-b51f-0546e31b77d4.png) 
 
