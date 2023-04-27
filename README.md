@@ -64,6 +64,7 @@ File Menu with keyboard shortcuts
 
 Success and Error messages shown accordingly
 
+
 ![SuccessMessage](https://user-images.githubusercontent.com/95984302/234830960-4ec3e96b-fbf9-47b4-b910-73beedf2ebaa.png)
 
 SVG file shown in the user's browser client 
