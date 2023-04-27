@@ -88,8 +88,5 @@ namespace Ultimate_Sketch.uSketchTests
             // Assert
             Assert.AreEqual(expectedMessage, form.LastShownMessage);
         }
-
-
-
     }
 }
