@@ -102,7 +102,6 @@ namespace Ultimate_Sketch
             pictureBox1.MouseDown += pictureBox1_MouseDown;
             pictureBox1.MouseMove += pictureBox1_MouseMove;
             pictureBox1.MouseUp += pictureBox1_MouseUp;
-
         }
         
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
