@@ -25,10 +25,6 @@ The following features have been implemented per menu item:
 
 And a general grid background and Theme selection to assist users with the drawing experience.
 
-## Screenshots
-![MainWindow](https://user-images.githubusercontent.com/95984302/234829073-bd78f238-80ef-4214-bdd0-a57fb62e1c0c.png)
-![ExportAsSVG](https://user-images.githubusercontent.com/95984302/234828450-2fda9c34-9490-4b7b-b21a-6a9992dfb77a.png)
-
 ## Tools Used
 
 The application has been developed using the following tools:
@@ -53,3 +49,12 @@ You can download the executable file from the "releases" section.
 - Biweekly updates to improve on the program's robustness
 - Better UI designed using [FontAwesome.Sharp](https://www.nuget.org/packages/FontAwesome.Sharp/) or [MaterialSkin.2](https://www.nuget.org/packages/MaterialSkin.2/) library.
 - More features such as a Tool Bar, View in browser, etc.
+
+
+## Screenshots
+![MainWindow](https://user-images.githubusercontent.com/95984302/234829073-bd78f238-80ef-4214-bdd0-a57fb62e1c0c.png)
+![TestingApp](https://user-images.githubusercontent.com/95984302/234830221-adcfb14d-fb58-49f1-873f-cafc9a0077c0.png)
+![ExportAsSVG](https://user-images.githubusercontent.com/95984302/234830618-7836c74d-2057-4947-b51f-0546e31b77d4.png)
+![SuccessMessage](https://user-images.githubusercontent.com/95984302/234830960-4ec3e96b-fbf9-47b4-b910-73beedf2ebaa.png)
+![TestSVGInBrowser](https://user-images.githubusercontent.com/95984302/234831244-811f606b-bb6b-4463-81f4-30c53947d74f.png)
+
