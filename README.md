@@ -71,3 +71,6 @@ SVG file viewed from the user's browser client
 
 ![TestSVGInBrowser](https://user-images.githubusercontent.com/95984302/234831244-811f606b-bb6b-4463-81f4-30c53947d74f.png)
 
+
+### Thanks for reading!
+
