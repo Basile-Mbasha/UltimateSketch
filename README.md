@@ -62,12 +62,12 @@ File Menu with keyboard shortcuts
 
 ![ExportAsSVG](https://user-images.githubusercontent.com/95984302/234830618-7836c74d-2057-4947-b51f-0546e31b77d4.png) 
 
-Success and Error messages shown accordingly after saving the file on your local system
+Success message shown after saving the file on your local system
 
 
 ![SuccessMessage](https://user-images.githubusercontent.com/95984302/234830960-4ec3e96b-fbf9-47b4-b910-73beedf2ebaa.png)
 
-SVG file shown in the user's browser client 
+SVG file viewed from the user's browser client 
 
 ![TestSVGInBrowser](https://user-images.githubusercontent.com/95984302/234831244-811f606b-bb6b-4463-81f4-30c53947d74f.png)
 
