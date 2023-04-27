@@ -19,13 +19,13 @@ namespace Ultimate_Sketch
 {
     public partial class Form1 : Form
     {
-        public List<Point> points = new List<Point>();
+        private List<Point> points = new List<Point>();
         private Point? previousPoint; // to keep track of the previous point
         private const int GridSize = 20; // the size of the grid cells
         internal readonly bool? DisplayedErrorMessage;
         internal readonly double LastShownMessage;
-        public Stack<List<Point>> undoStack = new Stack<List<Point>>();
-        public Stack<List<Point>> redoStack = new Stack<List<Point>>();
+        private Stack<List<Point>> undoStack = new Stack<List<Point>>();
+        private Stack<List<Point>> redoStack = new Stack<List<Point>>();
 
         public object saveFileDialog { get; internal set; }
 
@@ -233,7 +233,7 @@ namespace Ultimate_Sketch
             e.Graphics.DrawImage(bmp, e.PageBounds);
         }
 
-        public void ExportSvgMenuItem_Click(object sender, EventArgs e)
+        private void ExportSvgMenuItem_Click(object sender, EventArgs e)
         {
             if (points.Count == 0)
             {
