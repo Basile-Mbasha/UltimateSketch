@@ -31,7 +31,7 @@ The application has been developed using the following tools:
 
 - C# programming language
 - Windows Forms template
-- SVG .NET library
+- [SVG .NET library](https://svg-net.github.io/SVG/)
 
 ## Main Goal
 
@@ -47,5 +47,5 @@ You can download the executable file from the "releases" section.
 ## Future Releases
 
 - Biweekly updates to improve on the program's robustness
-- Better UI designed using [FontAwesome.Sharp](https://www.nuget.org/packages/FontAwesome.Sharp/) or MaterialSkin.2 library.
+- Better UI designed using [FontAwesome.Sharp](https://www.nuget.org/packages/FontAwesome.Sharp/) or [MaterialSkin.2](https://www.nuget.org/packages/MaterialSkin.2/) library.
 - More features such as a Tool Bar, View in browser, etc.
